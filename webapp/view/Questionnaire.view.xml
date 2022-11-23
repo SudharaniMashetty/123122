@@ -1,0 +1,69 @@
+<mvc:View controllerName="tipstool.controller.Questionnaire" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:commons="sap.suite.ui.commons" xmlns:l="sap.ui.layout">
+    <Page id="page" showHeader="false" class="pageBackground">
+        <content>
+            <OverflowToolbar height="4rem" class="overflowToolbar">
+                <Image src="./image/logo.svg" width="9rem" class="sapUiLargeMarginBegin" press="onNavBack" />
+                <ToolbarSpacer />
+                <core:Icon src="sap-icon://translate" class="sapUiLargeMarginEnd" />
+            </OverflowToolbar>
+
+            <HBox class="sapUiLargeMarginBeginEnd">
+                <HBox class="timeline sapUiMediumMarginBegin" height="90vh">
+                    <commons:Timeline
+                        id="timeline"
+                        axisOrientation="Vertical"
+                        textHeight="automatic"
+                        content="{oToolModel>/sections}"
+                        showHeaderBar="false"
+                        showIcons="true"
+                        enableScroll="false"
+                        growingThreshold="10"
+                        height="100%"
+                        class="sapUiLargeMarginTop sapUiTinyMarginBegin"
+                        select="onSelectItem"
+                    >
+                        <commons:content>
+                            <commons:TimelineItem select="onPressItem" title="{oToolModel>sectionName}" icon="{path:'oToolModel>completedAnswering', formatter:'.formatIconSrc'}" status="{path:'oToolModel>completedAnswering', formatter:'.formatIconStatus'}" />
+                        </commons:content>
+                    </commons:Timeline>
+                </HBox>
+                <VBox class="sapUiLargeMarginEnd sapUiSmallMarginBegin sapUiMediumMarginTop" items="{oToolModel>/sections}">
+                    <VBox visible="{oToolModel>visible}" alignItems="End" width="70vw">
+                        <Button text="{i18n>BackToHome}" class="backBtn" press="onNavBack" />
+                        <HBox items="{oToolModel>data}" width="70vw" class="sapUiLargeMarginBegin" alignItems="End" justifyContent="SpaceBetween">
+                            <ProgressIndicator percentValue="100" class="" state="{path:'oToolModel>completed', formatter:'.formatProgressBar'}" width="{path:'oToolModel>/selectedSection/data', formatter:'.formatProgressBarWidth'}" />
+                        </HBox>
+                        <VBox id="startVBox" class="containerVBox sapUiTinyMarginTop" alignItems="Center" justifyContent="Center" width="70vw" height="70vh">
+                            <Text text="{oToolModel>sectionName}" class="selectedTitle sapUiSmallMarginBottom" />
+                            <Button text="{i18n>Start}" class="btnGreen sapUiLargeMarginBottom" press="onPressStart" />
+                            <Text text="{i18n>NotApplicable}" class="sapUiLargeMarginTop" />
+                            <Button text="{i18n>SkipSection}" class="skipBtn" press="onSkipSection" />
+                        </VBox>
+
+                        <VBox id="qnVBox" class="containerVBox sapUiTinyMarginTop" alignItems="Center" justifyContent="Center" width="70vw" height="70vh" visible="false" items="{oToolModel>data}">
+                            <VBox visible="{oToolModel>visible}" width="80%" justifyContent="Center" alignItems="Center">
+                                <Text text="{oToolModel>qnId} . {oToolModel>question}" class="selectedTitle sapUiSmallMarginBottom" textAlign="Center" />
+                                <VBox items="{oToolModel>options}" alignItems="Center" justifyContent="Center" width="100%" visible="{= ${oToolModel>answer} === undefined ? true : false }" class="vboxCheckbox" wrap="Wrap">
+                                    <CheckBox text="{oToolModel>option}" selected="{oToolModel>selected}" class="checkboxSize checkboxTick checkboxLabel checkboxBorder" wrapping="true" select="onSelect" />
+                                </VBox>
+                                <TextArea value="{oToolModel>answer}" visible="{= ${oToolModel>answer} === undefined ? false : true }" width="100%" liveChange="onLiveChangeText" />
+                                <HBox justifyContent="Center" width="80%" class="hboxButtons">
+                                    <Button text="{i18n>Prev}" class="btnWhite" press="onPressPrevious" visible="{path:'oToolModel>qnId', formatter:'.formatPrevBtnVisibility'}" />
+                                    <Button
+                                        text="{i18n>Next}"
+                                        class="btnGreen btnRightAlign sapUiLargeMarginBottom"
+                                        visible="{parts:['oToolModel>qnId','oToolModel>/selectedSection'], formatter:'.formatNextBtnVisibility'}"
+                                        enabled="{parts:['oToolModel>selected'], formatter:'.formatBtnEnable'}"
+                                        press="onNext"
+                                    />
+                                    <Button text="{i18n>Submit}" class="btnGreen btnRightAlign sapUiLargeMarginBottom" visible="{parts:['oToolModel>qnId','oToolModel>/selectedSection'], formatter:'.formatSubmitBtnVisibility'}" press="onSubmit" />
+                                </HBox>
+                                <Button text="{i18n>Skip}" class="skipBtn " press="onSkipQuestion" />
+                            </VBox>
+                        </VBox>
+                    </VBox>
+                </VBox>
+            </HBox>
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,19 @@
+<mvc:View controllerName="tipstool.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Page id="page" showHeader="false" class="pageBackground">
+        <content >
+            <OverflowToolbar height="4rem" class="overflowToolbar">
+                <Image src="./image/logo.svg" width="9rem" class="sapUiLargeMarginBegin"/>
+                <ToolbarSpacer />
+                <core:Icon src="sap-icon://translate" class="sapUiLargeMarginEnd"/>
+            </OverflowToolbar>
+            <VBox alignItems="Center" justifyContent="Center" height="90%">
+                <Text text="{i18n>HomeTitle}" class="homeTitle sapUiMediumMarginBottom" textAlign="Center"/>
+                <Text text="{i18n>HomeSubtitle}" class="homeSubtitle sapUiMediumMarginBottom" textAlign="Center"/>
+                <Button text="{i18n>GetStarted}" class="btnGreen" press="onStart"/>
+            </VBox>            
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,1784 @@
+{
+  "sections": [
+    {
+      "sectionId": "0",
+      "sectionName": "Platform features",
+      "image": "./image/feature.png",
+      "progressCount": 0,
+      "visible": true,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 1,
+          "qnId": "1",
+          "question": "Which type of Integration scenarios do you want the Integration to support?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "01a",
+              "option": "Cloud to Cloud",
+              "products": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "01b",
+              "option": "On-premise to On-premise",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "01c",
+              "option": "Cloud to On-Premise System (Hybrid)",
+              "products": [0]
+            }
+          ]
+        },
+        {
+          "qnNum": 2,
+          "qnId": "2",
+          "question": "Do you require an IPaaS(Integration platform-based in the Cloud) Integration solution?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "02a",
+              "option": "Yes",
+              "products": [1, 2, 3, 4, 5, 7, 8, 9]
+            },
+            {
+              "optionId": "02b",
+              "option": "No",
+              "products": [0, 6]
+            }
+          ]
+        },
+        {
+          "qnNum": 3,
+          "qnId": "3",
+          "question": "Does the planned Integration need to support any legacy tool/application?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "03a",
+              "option": "Yes",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "03b",
+              "option": "No",
+              "products": []
+            }
+          ]
+        },
+        {
+          "qnNum": 4,
+          "qnId": "4",
+          "question": "Does your Integration requirement include an API Management/Gateway feature?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "04a",
+              "option": "Yes",
+              "products": [1, 2, 3, 4, 5, 7, 8]
+            },
+            {
+              "optionId": "04b",
+              "option": "No",
+              "products": [0, 6, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 5,
+          "qnId": "5",
+          "question": "Do you require an Integration platform with alternate Runtime available? ( i.e. Cloud runtime for on-premise platform/on-premise runtime for a Cloud platform)",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "05a",
+              "option": "Yes",
+              "products": [0, 1, 2, 3, 4, 5, 7, 8]
+            },
+            {
+              "optionId": "05b",
+              "option": "No",
+              "products": [6, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 6,
+          "qnId": "6",
+          "question": "Does your Integration require vendor-provided Pre-packaged content for your integration?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "06a",
+              "option": "Yes",
+              "products": [1, 2, 3, 5, 8]
+            },
+            {
+              "optionId": "06b",
+              "option": "No",
+              "products": [0, 4, 6, 7, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 7,
+          "qnId": "7",
+          "question": "Will the to-be integration platform require to primarily handle large data volumes? ",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "07a",
+              "option": "Yes",
+              "products": [0, 1, 2, 3, 4, 6, 7]
+            },
+            {
+              "optionId": "07b",
+              "option": "No",
+              "products": [5, 8, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 8,
+          "qnId": "8",
+          "question": "Do you require an open-source integration platform? ",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "08a",
+              "option": "Yes",
+              "products": [3, 4, 5, 8]
+            },
+            {
+              "optionId": "08b",
+              "option": "No",
+              "products": [0, 1, 2, 6, 7, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 9,
+          "qnId": "9",
+          "question": "Do you require a Low Code/No Code Development environment for Integration development?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "09a",
+              "option": "Yes",
+              "products": [1, 2, 3, 4, 5, 7, 8]
+            },
+            {
+              "optionId": "09b",
+              "option": "No",
+              "products": [0, 6, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 10,
+          "qnId": "10",
+          "question": "Does the planned Integration need require Intelligence capabilities i.e. AI, ML/Crowd sourced learnings to help configure integration components - eg: data mappings etc?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "010a",
+              "option": "Yes",
+              "products": [2, 4, 5, 7]
+            },
+            {
+              "optionId": "010b",
+              "option": "No",
+              "products": [0, 1, 3, 6, 8, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 11,
+          "qnId": "11",
+          "question": "If your requirement includes an API platform, does the Integration require built in API Monetization capabilities?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "011a",
+              "option": "Yes",
+              "products": [1, 3, 7, 8]
+            },
+            {
+              "optionId": "011b",
+              "option": "No",
+              "products": [0, 2, 4, 5, 6, 9]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "1",
+      "sectionName": "Integration Category",
+      "image": "./image/category.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 12,
+          "qnId": "1",
+          "question": "How would you categorize your integration? Ie. Application Integration or a Data Integration?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "11a",
+              "option": "Application Integration",
+              "products": [0, 1, 2, 3, 4, 5, 7, 8, 9]
+            },
+            {
+              "optionId": "11b",
+              "option": "Data Integration",
+              "products": [2, 3, 4, 5, 6, 8]
+            }
+          ]
+        },
+        {
+          "qnNum": 13,
+          "qnId": "2",
+          "question": "If your answer to previous Question was Data Integration, please specific which use case is relevant for your Data Integration",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "12a",
+              "option": "Master Data Synchronization",
+              "products": [2, 3, 6, 7]
+            },
+            {
+              "optionId": "12b",
+              "option": "Data Replication",
+              "products": [1, 2, 4, 5, 6, 7]
+            },
+            {
+              "optionId": "12c",
+              "option": "Data Virtualization",
+              "products": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "2",
+      "sectionName": "Integration Patterns/Characteristics",
+      "image": "./image/integration-patterns.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 14,
+          "qnId": "1",
+          "question": "What patterns of data integration do you need to support",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "21a",
+              "option": "Messaging Queues",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "21b",
+              "option": "Event Based",
+              "products": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "21c",
+              "option": "Managed File Transfer",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+            },
+            {
+              "optionId": "21d",
+              "option": "API based",
+              "products": [0, 1, 2, 3, 4, 5, 8]
+            },
+            {
+              "optionId": "21e",
+              "option": "Extract, Transform and Load (ETL)",
+              "products": [2, 3, 4, 5, 6, 7]
+            }
+          ]
+        },
+        {
+          "qnNum": 15,
+          "qnId": "2",
+          "question": "Does your planned Integration need to support Real-Time Data Integration? ",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "22a",
+              "option": "Yes",
+              "products": [2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "22b",
+              "option": "No",
+              "products": [0, 1]
+            }
+          ]
+        },
+        {
+          "qnNum": 16,
+          "qnId": "3",
+          "question": "Does the to-be integration need to support B2B/EDI based scenarios? ",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "23a",
+              "option": "Yes",
+              "products": [0, 1, 2, 3, 4, 5, 7]
+            },
+            {
+              "optionId": "23b",
+              "option": "No",
+              "products": [6, 8, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 17,
+          "qnId": "4",
+          "question": "Is the planned Integration required for ETL(Extract-Transform-Load) scenarios?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "24a",
+              "option": "Yes",
+              "products": [1, 2, 3, 4, 5, 6, 8]
+            },
+            {
+              "optionId": "24b",
+              "option": "No",
+              "products": [0, 7, 9]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "sectionName": "Data Integration Features",
+      "image": "./image/analysis.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 18,
+          "qnId": "1",
+          "question": "Does your Integration require ELT (Extract, Load, and Transform) Support? (ELT is a variation of the ETL (Extract, Transform and Load) approach?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "31a",
+              "option": "Yes",
+              "products": [3, 6]
+            },
+            {
+              "optionId": "31b",
+              "option": "No",
+              "products": [0, 1, 2, 4, 5, 7, 8]
+            }
+          ]
+        },
+        {
+          "qnNum": 19,
+          "qnId": "2",
+          "question": "Do you require the Integration platform to natively support data transfer to/from a Data Lake /Data warehouse? eg Azure Data Lake, Hadoop etc? ",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "32a",
+              "option": "Yes",
+              "products": [1, 2, 3, 5, 6, 7, 9]
+            },
+            {
+              "optionId": "32b",
+              "option": "No",
+              "products": [0, 4, 8]
+            }
+          ]
+        },
+        {
+          "qnNum": 20,
+          "qnId": "3",
+          "question": "Will the Integration platform be required to handle unstructured data? ",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "33a",
+              "option": "Yes",
+              "products": [2, 5, 6, 8]
+            },
+            {
+              "optionId": "33b",
+              "option": "No",
+              "products": [0, 1, 3, 4, 7, 9]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "sectionName": "Data Handling Capabilities",
+      "image": "./image/abilities.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 21,
+          "qnId": "1",
+          "question": "What are the primary standard data formats should the Integration Support?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "41a",
+              "option": "XML",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "41b",
+              "option": "JSON",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "41c",
+              "option": "CSV",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+            },
+            {
+              "optionId": "41d",
+              "option": "Flat File/Text",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 22,
+          "qnId": "2",
+          "question": "Will the Integration tool require complex message routing techniques? (Message splitting, Content-Based routing etc)",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "42a",
+              "option": "Yes",
+              "products": [0, 1, 2, 3, 5, 7, 8, 9]
+            },
+            {
+              "optionId": "42b",
+              "option": "No",
+              "products": [4, 6]
+            }
+          ]
+        },
+        {
+          "qnNum": 23,
+          "qnId": "3",
+          "question": "Does the planned Integration involve complex EDI Mapping and Orchestration Capabilities",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "43a",
+              "option": "Yes",
+              "products": [0, 1, 2, 3, 4, 5, 7]
+            },
+            {
+              "optionId": "43b",
+              "option": "No",
+              "products": [6, 8, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 24,
+          "qnId": "4",
+          "question": "Does the Integration platform need to support proprietary data format such as SWIFT?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "44a",
+              "option": "SWIFT (Banking)",
+              "products": [0, 2, 3, 5, 7]
+            },
+            {
+              "optionId": "44b",
+              "option": "No",
+              "products": [1, 4, 6, 8, 9]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "sectionName": "Connectors Library/Support",
+      "image": "./image/connectors.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 25,
+          "qnId": "1",
+          "question": "What are the primary connectors typically used in the planned Integration?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "51a",
+              "option": "HTTP(s)",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "51b",
+              "option": "SOAP/HTTP",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "51c",
+              "option": "FTP/FTPS/SFTP",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+            },
+            {
+              "optionId": "51d",
+              "option": "JDBC",
+              "products": [0, 1, 3, 4, 5, 6, 7, 8]
+            },
+            {
+              "optionId": "51e",
+              "option": "Mail",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+            },
+            {
+              "optionId": "51f",
+              "option": "JMS/MQ",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+          ]
+        },
+        {
+          "qnNum": 26,
+          "qnId": "2",
+          "question": "Do you require the Integration platform to allow the development of Custom-built Connectors?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "52a",
+              "option": "Yes",
+              "products": [1, 2, 3, 4, 5, 7, 8]
+            },
+            {
+              "optionId": "52b",
+              "option": "No",
+              "products": [0, 6, 9]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "sectionName": "Licensing",
+      "image": "./image/license.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 27,
+          "qnId": "1",
+          "question": "What type of Licensing model are you looking for?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "61a",
+              "option": "Subscription based",
+              "products": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "61b",
+              "option": "Consumption-Based",
+              "products": [1, 2, 9]
+            },
+            {
+              "optionId": "61c",
+              "option": "Perpetual License",
+              "products": [0, 7]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "7",
+      "sectionName": "Platform Updates",
+      "image": "./image/update.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 28,
+          "qnId": "1",
+          "question": "Do you require frequent and steady product updates as part of the Integration solution?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "selectOne": true,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "71a",
+              "option": "Yes",
+              "products": [1, 2, 3, 4, 5, 9]
+            },
+            {
+              "optionId": "71b",
+              "option": "No",
+              "products": [0, 6, 7, 8]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "8",
+      "sectionName": "Security/Compliance Features",
+      "image": "./image/security.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnNum": 29,
+          "qnId": "1",
+          "question": "Could you specify any of the below encryption techniques to secure data in transit for your Integration platform?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "81a",
+              "option": "PGP",
+              "products": [0, 1, 2, 3, 4, 5, 7]
+            },
+            {
+              "optionId": "81b",
+              "option": "SSL",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "81c",
+              "option": "AES128",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "81d",
+              "option": "AES256",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "81e",
+              "option": "NNE",
+              "products": []
+            },
+            {
+              "optionId": "81f",
+              "option": "Jaas",
+              "products": [3]
+            }
+          ]
+        },
+        {
+          "qnNum": 30,
+          "qnId": "2",
+          "question": "Please select the relevant option if there is any specific requirement for the Integration platform to adhere to the below data compliance standards.",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "82a",
+              "option": "PCI-DSS/PCI",
+              "products": [0, 1, 2, 3, 4, 8, 9]
+            },
+            {
+              "optionId": "82b",
+              "option": "HIPAA",
+              "products": [1, 2, 3, 4, 5, 7, 9]
+            },
+            {
+              "optionId": "82c",
+              "option": "SOC1/2",
+              "products": [0, 1, 2, 3, 4, 5, 7, 9]
+            },
+            {
+              "optionId": "82d",
+              "option": "CCPA",
+              "products": [1, 2, 3, 4, 5, 8, 9]
+            },
+            {
+              "optionId": "82e",
+              "option": "ISO27001",
+              "products": [0, 1, 2, 3, 4, 5, 7, 9]
+            },
+            {
+              "optionId": "82f",
+              "option": "GDPR",
+              "products": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+              "optionId": "82g",
+              "option": "FIPS",
+              "products": [1, 3, 6]
+            },
+            {
+              "optionId": "82h",
+              "option": "CSA",
+              "products": [1, 4, 7, 9]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "9",
+      "sectionName": "Client Brief",
+      "image": "./image/business.png",
+      "progressCount": 0,
+      "visible": false,
+      "completedAnswering": -1,
+      "progressDisplayValue": 0,
+      "productFlag": false,
+      "productScoreDetails": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "color": "#67B7DC"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "color": "#6771DC"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "color": "#FF0000"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "color": "#A367DC"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "color": "#ADD8E6"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "color": "#DC67CE"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "color": "#FFC0CB"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "color": "#7FFFD4"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "color": "#DC6967"
+        }
+      ],
+      "data": [
+        {
+          "qnId": "1",
+          "question": "Do you already have an Integration platform/middleware in place? ",
+          "selected": 0,
+          "selectOne": true,
+          "nextBtnCount": 0,
+          "visible": true,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "91a",
+              "option": "Yes",
+              "products": []
+            },
+            {
+              "optionId": "91b",
+              "option": "No",
+              "products": []
+            }
+          ]
+        },
+        {
+          "qnId": "2",
+          "question": "Are you currently in the process of evaluating an Integration tool and require Integration domain expertise for this purpose?",
+          "selected": 0,
+          "selectOne": true,
+          "nextBtnCount": 0,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "92a",
+              "option": "Yes",
+              "products": []
+            },
+            {
+              "optionId": "92b",
+              "option": "No",
+              "products": []
+            }
+          ]
+        },
+        {
+          "qnNum": 33,
+          "qnId": "3",
+          "question": "Do you want to continue with your existing or migrate to a better one?",
+          "selected": 0,
+          "nextBtnCount": 0,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "93a",
+              "option": "Continue Existing",
+              "products": []
+            },
+            {
+              "optionId": "93b",
+              "option": "Upgrade Existing ",
+              "products": []
+            },
+            {
+              "optionId": "93c",
+              "option": "Migrate to new",
+              "products": []
+            }
+          ]
+        },
+        {
+          "qnId": "4",
+          "question": "Do you have in-house expertise to develop solutions?",
+          "selected": 0,
+          "selectOne": true,
+          "nextBtnCount": 0,
+          "visible": false,
+          "completed": 0,
+          "options": [
+            {
+              "optionId": "94a",
+              "option": "Yes",
+              "products": []
+            },
+            {
+              "optionId": "94b",
+              "option": "No",
+              "products": []
+            }
+          ]
+        },
+        {
+          "qnId": "5",
+          "question": "What are your current pain points?",
+          "visible": false,
+          "selected": 0,
+          "completed": 0,
+          "answer": ""
+        },
+        {
+          "qnId": "6",
+          "question": "What is your future integration roadmap?",
+          "visible": false,
+          "selected": 0,
+          "completed": 0,
+          "answer": ""
+        },
+        {
+          "qnId": "7",
+          "question": "What is your budget for initial integration efforts?",
+          "visible": false,
+          "selected": 0,
+          "completed": 0,
+          "answer": ""
+        }
+      ]
+    }
+  ],
+  "finalProductList": {
+    "length": 9,
+    "products": [
+      {
+        "productId": "0",
+        "productName": "SAP PO",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#67B7DC",
+        "image": "./image/sappo.png"
+      },
+      {
+        "productId": "1",
+        "productName": "SAP CPI",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#FFC0CB",
+        "image": "./image/sapcpi.png"
+      },
+      {
+        "productId": "2",
+        "productName": "Boomi Atomsphere Platform",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#6771DC",
+        "image": "./image/boomi.png"
+      },
+      {
+        "productId": "3",
+        "productName": "MuleSoft Anypoint",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#FF0000",
+        "image": "./image/mulesoft.png"
+      },
+      {
+        "productId": "4",
+        "productName": "Jitterbit Harmony",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#A367DC",
+        "image": "./image/jitterbit.png"
+      },
+      {
+        "productId": "5",
+        "productName": "SnapLogic",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#ADD8E6",
+        "image": "./image/snaplogic.png"
+      },
+      {
+        "productId": "6",
+        "productName": "Oracle Data Integrator (ODI)",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#DC67CE",
+        "image": "./image/odi.png"
+      },
+      {
+        "productId": "7",
+        "productName": "Webmethods",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#FFC0CB",
+        "image": "./image/webmethods.png"
+      },
+      {
+        "productId": "8",
+        "productName": "WS02",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#7FFFD4",
+        "image": "./image/wso2.svg"
+      },
+      {
+        "productId": "9",
+        "productName": "Azure ESB",
+        "productScore": 0,
+        "percentage": 0,
+        "color": "#DC6967",
+        "image": "./image/azureesb.png"
+      }
+    ],
+    "productList": [
+        {
+          "productId": "0",
+          "productName": "SAP PO",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#67B7DC",
+          "image": "./image/sappo.png"
+        },
+        {
+          "productId": "1",
+          "productName": "SAP CPI",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#FFC0CB",
+          "image": "./image/sapcpi.png"
+        },
+        {
+          "productId": "2",
+          "productName": "Boomi Atomsphere Platform",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#6771DC",
+          "image": "./image/boomi.png"
+        },
+        {
+          "productId": "3",
+          "productName": "MuleSoft Anypoint",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#FF0000",
+          "image": "./image/mulesoft.png"
+        },
+        {
+          "productId": "4",
+          "productName": "Jitterbit Harmony",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#A367DC",
+          "image": "./image/jitterbit.png"
+        },
+        {
+          "productId": "5",
+          "productName": "SnapLogic",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#ADD8E6",
+          "image": "./image/snaplogic.png"
+        },
+        {
+          "productId": "6",
+          "productName": "Oracle Data Integrator (ODI)",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#DC67CE",
+          "image": "./image/odi.png"
+        },
+        {
+          "productId": "7",
+          "productName": "Webmethods",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#FFC0CB",
+          "image": "./image/webmethods.png"
+        },
+        {
+          "productId": "8",
+          "productName": "WS02",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#7FFFD4",
+          "image": "./image/wso2.svg"
+        },
+        {
+          "productId": "9",
+          "productName": "Azure ESB",
+          "productScore": 0,
+          "percentage": 0,
+          "color": "#DC6967",
+          "image": "./image/azureesb.png"
+        }
+      ]
+  }
+}

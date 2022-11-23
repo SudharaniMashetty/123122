@@ -1,0 +1,260 @@
+.pageBackground {
+    background-image: url('../image/background.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.overflowToolbar.sapMTB.sapMTBStandard {
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+}
+
+
+.homeTitle.sapMText {
+    font-size: 3.125vw;
+    color: #000000;
+    font-weight: bold;
+    width: 47vw;
+}
+
+.homeSubtitle.sapMText {
+    font-size: 1.25vw;
+    color: #555555;
+    font-weight: 300;
+}
+
+.btnGreen.sapMBtn .sapMBtnInner {
+    background-color: #1E8F8E;
+    color: #fff;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05rem;
+    font-weight: 300;
+    border-radius: 1.5rem;
+}
+
+.sapSuiteUiCommonsTimelineItemWrapperV .sapSuiteUiCommonsTimelineItemArrow {
+    display: none;
+}
+
+.sapSuiteUiCommonsTimelineItem {
+    height: 3rem;
+}
+
+.sapSuiteUiCommonsTimelineItemBarV {
+    height: calc(100% - 1.313rem) !important;
+    top: 2.5rem !important;
+}
+
+.sapSuiteUiCommonsTimelineItemBox {
+    min-height: auto;
+    border: none !important;
+}
+
+.sapSuiteUiCommonsTimelineItemBubble {
+    padding-top: 1.25rem;
+}
+
+.sapSuiteUiCommonsTimelineItemBubble {
+    height: 3rem;
+}
+
+.sapSuiteUiCommonsTimelineScroll .sapSuiteUiCommonsTimelineItem {
+    padding-bottom: 0px !important;
+}
+
+.sapSuiteUiCommonsTimelineItemShell {
+    padding: 1.125rem 0.5rem 0.5rem 0.5rem;
+}
+
+.sapSuiteUiCommonsTimelineItemWrapperVRight .sapSuiteUiCommonsTimelineItemOutline {
+    padding-top: 0.6rem;
+}
+
+.timeline.sapMHBox {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.backBtn.sapMBtn .sapMBtnInner {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.05rem;
+}
+
+.containerVBox.sapMVBox {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+}
+/* 
+.sapMTextMaxWidth {
+    max-width: 100%;
+} */
+
+.selectedTitle.sapMText {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.selectedHeader.sapSuiteUiCommonsTimelineItemShellHdr {
+    font-weight: bold;
+}
+
+.sapMPIBarNeutral {
+    background: #EAEAEA;
+}
+
+.sapMPI .sapMPIBar {
+    border: none;
+}
+
+.sapMPIBarInformation::before {
+    content: none;
+}
+
+.sapMPIBarPositive::before {
+    content: none;
+}
+
+.sapMPIBarPositive {
+    background-color: #1E8F8E;
+    border-color: none;
+}
+
+.sapMPIBarInformation {
+    background: #727272;
+}
+
+.sapSuiteUiCommonsTimelineStatusInformation, .sapSuiteUiCommonsTimelineItemWrapperV .sapSuiteUiCommonsTimelineItemNoIcon.sapSuiteUiCommonsTimelineStatusInformation, .sapSuiteUiCommonsTimelineItemWrapper .sapSuiteUiCommonsTimelineItemNoIcon.sapSuiteUiCommonsTimelineStatusInformation {
+    color: #727272;
+    text-shadow: none;
+}
+
+.resultBackBtn.sapMBtn {
+    margin-left: 75rem;
+}
+
+.resultBackBtn.sapMBtn .sapMBtnInner {
+    background-color: transparent;
+    border: none;
+    color: #000000
+}
+
+.resultVBox.sapMVBox {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+}
+
+.viewDetailsBtn.sapMBtn {
+    margin-left: 17rem;
+}
+
+.resultVBox.sapMFlexBoxJustifyStart {
+    justify-content: space-evenly;
+}
+
+.sapSuiteRMC {
+    justify-content: end;
+}
+
+.sapSuiteRMC .sapSuiteRMCVerticalAlignmentContainer {
+    width: auto;
+}
+
+.checkboxMark.sapMCb.sapMCbWrapped.sapMCbHasLabel{
+    background-color: #ecf6f6;
+    border: 2px solid #7fc0bf;
+}
+
+.vboxCheckbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxSize .sapMCbBg {
+    height: 1.6rem;
+    width: 1.6rem;
+    top: 1rem;
+    margin: auto;
+    border-radius: 0.8rem;
+    color: #ffffff;
+    border: 2px solid #000;
+    background-color: #ffffff;
+}
+
+.checkboxColor .sapMCbBg{
+    background-color: #1E8F8E;
+    border: none;
+}
+
+.checkboxTick .sapMCbMarkChecked:before {
+    font-size: 1.3rem !important;
+}
+
+.checkboxLabel.sapMCb.sapMCbWrapped.sapMCbHasLabel>.sapMLabel.sapMLabelWrapped {
+    margin: auto;
+    line-height: 1.2rem;
+    padding: 0.5rem 0.4rem;
+    font-size: 1rem;
+}
+
+.checkboxBorder.sapMCb.sapMCbWrapped.sapMCbHasLabel {
+    width: 14vw;
+    height: 8vh;
+    padding: auto;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;   
+    display: flex;
+    margin: 0.5vw;
+}
+
+.checkboxMark.sapMCb.sapMCbWrapped.sapMCbHasLabel{
+    background-color: #ecf6f6;
+    border: 2px solid #7fc0bf;
+}
+
+.sapMCb.sapMCbHasLabel:focus:before {
+    border: none;
+}
+
+
+
+.btnRightAlign.sapMBtn .sapMBtnInner{
+    margin: auto auto auto 30rem;
+}
+
+.btnWhite.sapMBtn .sapMBtnInner {
+    background-color: #fff;
+    color: #1E8F8E;
+    width: 10rem;
+    height: 3rem;
+    align-items: center;
+    font-size: 1.05rem;
+    font-weight: 300;  
+    border-radius: 1.5rem;  
+}
+
+html.sap-desktop .sapMBtn:focus>.sapMFocusable:not(.sapMBadgeIndicator):before {
+    border: none;
+}
+
+.skipBtn.sapMBtn .sapMBtnInner {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.05rem;
+    margin: auto ;
+    /* top: 10vh; */
+    bottom: 8vh;
+    position: fixed;
+
+}

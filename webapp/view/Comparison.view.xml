@@ -1,0 +1,74 @@
+<mvc:View controllerName="tipstool.controller.Comparison"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" 
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout"  	
+    xmlns:core="sap.ui.core" 
+    xmlns:mc="sap.suite.ui.microchart">
+    <Page id="page" showHeader="false" class="pageBackground">
+        <content>
+            <OverflowToolbar height="4rem" class="overflowToolbar">
+                <Image src="./image/logo.svg" width="9rem" class="sapUiLargeMarginBegin" press="onNavBack"/>
+                <ToolbarSpacer/>
+                    <core:Icon src="sap-icon://translate" class="sapUiLargeMarginEnd"/>
+            </OverflowToolbar> 
+            <HBox justifyContent="SpaceBetween" width="95%" class="sapUiMediumMargin">
+                <Title text="{i18n>ProductComparison}" />
+				<Button text="{i18n>Back}" class="backBtn" press="onNavBack"/>
+            </HBox>
+            <Table items="{oTableModel>/comparisonData}" sticky="ColumnHeaders,HeaderToolbar" class="sapUiMediumMarginBeginEnd" >
+				<columns>
+					<Column hAlign="Left">
+						<Label text="{i18n>Questions}" class='sapUiLargeMarginBegin'></Label>
+					</Column>
+					<Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/0/image}"></Image>
+					</Column>
+					<Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/1/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/2/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/3/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/4/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/5/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/6/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/7/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/8/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/9/image}"></Image>
+					</Column>
+                    <Column hAlign="Center">
+						<Image src="{oToolModel>/finalProductList/productList/10/image}"></Image>
+					</Column>
+				</columns>
+				<items >
+					<ColumnListItem>
+						<Text text="{oTableModel>qn}" class='sapUiLargeMarginBegin'/>
+						<Text text="{oTableModel>SAP PO}"/>
+						<Text text="{oTableModel>SAP CPI}"/>
+						<Text text="{oTableModel>Boomi Atomsphere Platform}"/>
+						<Text text="{oTableModel>Jitterbit Harmony}"/>
+						<Text text="{oTableModel>SnapLogic}"/>
+						<Text text="{oTableModel>Oracle Data Integrator (ODI)}"/>
+						<Text text="{oTableModel>Webmethods}"/>
+						<Text text="{oTableModel>WS02}"/>
+						<Text text="{oTableModel>Azure ESB}"/>
+					</ColumnListItem>
+				</items>
+			</Table>
+        </content>
+    </Page>
+</mvc:View>
